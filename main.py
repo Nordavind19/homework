@@ -1,7 +1,12 @@
+my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
+index = 0
+while index < len(my_list):
+   numbers = my_list[index]
+   index += 1
+   if numbers == 0:
+       continue
+   elif numbers < 0:
+       break
+   print(numbers)
 
-number_of_completed_homework = 12
-spent_time = 1.5
-course_name = 'Python'
-time_for_one_task = (spent_time/number_of_completed_homework)
-print ("Курс:", course_name, "всего задач:", number_of_completed_homework, ",затрачено часов:", spent_time, ",среднее время выполнения:", time_for_one_task
-       )
+
